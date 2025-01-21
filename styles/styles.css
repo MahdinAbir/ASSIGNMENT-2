@@ -5,6 +5,19 @@
    
 
 }
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900 */
+
+.raleway-font {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight:500;
+  font-style: normal;
+}
 
 
 /* Shared Styles */
@@ -168,6 +181,7 @@ color: orange;
     margin-left: 140px;
     margin-right: 140px;
     gap:1.75em;
+    
    
 
  }
@@ -222,10 +236,45 @@ color: orange;
 }
 .para21, .para22, .para23{
 
+    margin-bottom: 2em;
+}
+
+.btn1{color:#64C8FF;
+font-weight: bold;}
+.btn2{color: #F0AA00;
+    font-weight: bold;}
+.btn3{color: #8700FF;
+    font-weight: bold;} 
+
+    
+        
     
 
+    .ball {
+        width: 60px;
+        height: 60px;
+        background-color: orange;
+        color: white;
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+        
+        border-radius: 50%;}
 
-}
+        .babu{
+            display: flex;
+            justify-content: center;
+            margin-top: 80px;
+            margin-bottom: 60px;
+            gap: 10px;
+
+        }
+
+
+        
+
+
+
 
 
 
