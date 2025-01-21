@@ -95,6 +95,86 @@
     
             }
 
+            /* BANNER PART */
+
+            .banner2{
+                margin-top: 30px;
+                display: flex;
+                justify-content: space-between;
+                margin-left: 140px;
+    margin-right: 140px;
+
+            }
+
+            .text1{
+                font-size: 56px;
+                font-weight: 600;
+
+
+
+            }
+
+            .part1{
+color: orange;
+
+            }
+            .part3{
+                color: rgba(1, 172, 253, 1);
+            }
+            .text2{
+                margin-top: 16px;
+                margin-bottom: 16px;
+
+            }
+            .text3{
+                border: 0px;
+                background-color: black;
+                color: white;
+                padding: 10px 47px;
+                border-radius: 12px;
+                
+
+
+ }
+ .title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+
+ }
+
+ .curriculam{
+    background-image: url(../assets/bg.png);
+    width: 1536px;
+    height: 500px;
+
+ }
+ .font2{
+
+    font-weight:bold;
+            font-size: 46px;
+            text-align: center;
+            padding-top: 60px;
+
+            padding-bottom: 80px;
+
+
+
+ }
+ .school{
+    display:flex
+ }
+
+   
+
+    
+ 
+ 
+        
+
+
 
 
 
@@ -152,7 +232,47 @@ display: flex;
 justify-content: space-between;
 
         }
+        .banner2{
+            flex-direction: column-reverse;
+            margin-left: 18px;
+            margin-right: 16px;
+            justify-content: center;
+
+
+        }
+         
+
+
+        
+        .text1 br{display:none; }
+        .text1{
+            font-size: 32px;
+            text-align: center;
+           
+        }
+        .text2 br{display:none; }
+        .text2{
+            text-align: center;
+
+        }
+        .text4{ text-align: center;}
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     
-}
