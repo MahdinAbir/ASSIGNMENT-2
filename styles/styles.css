@@ -164,8 +164,71 @@ color: orange;
 
  }
  .school{
-    display:flex
+    display:flex;
+    margin-left: 140px;
+    margin-right: 140px;
+    gap:1.75em;
+   
+
  }
+
+ .child1{
+    text-align: center;
+    margin-top:60px;
+    background: linear-gradient(rgb(173, 219, 231),white);
+    padding: 4em;
+    border-radius: 1.125em;
+    border: .0625em solid rgb(173, 219, 231) ;
+    max-width: 22.98em;
+    
+
+
+
+
+
+}
+
+.child2{
+    text-align: center;
+    margin-top:60px;
+    background: linear-gradient(#fbf186,white);
+    padding: 4em;
+    border-radius: 1.125em;
+    border: .0625em solid #fbf186;
+    max-width: 22.98em;
+    
+
+    
+}
+
+.child3{
+    text-align: center;
+    margin-top:60px;
+    
+    background: linear-gradient(#d3b7d2,white);
+    padding: 4em;
+    border-radius: 1.125em;
+    border: .0625em solid #d3b7d2;
+    max-width: 22.98em;
+    
+}
+
+.para1, .para2, .para3{
+
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+.para21, .para22, .para23{
+
+    
+
+
+}
+
+
+
 
    
 
