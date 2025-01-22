@@ -236,6 +236,7 @@ color: orange;
     margin-bottom: 1.5em;
 }
 .para21, .para22, .para23{
+    color: #808080;
 
     margin-bottom: 2em;
 }
@@ -270,6 +271,72 @@ font-weight: bold;}
             gap: 10px;
 
         }
+        .curriculam2{
+            background-image: url('../assets/bg.png');
+            background-repeat: repeat-y;
+            width: 1400px;
+
+            
+            
+        }
+        .final{  margin-left: 140px;
+            margin-right: 140px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 16px;
+
+
+        }
+        .story1{
+            grid-row: span 2;
+
+        }
+        .button1{ background-color: #3CD8E8; 
+        border: 0px;
+    padding: 1.5em;
+border-radius: 2.8em;
+color: white;
+margin-top:-900%;
+
+
+
+
+}
+        .button2{border: 0px;
+            padding: 1em;
+        border-radius: 2.8em;
+        color: white;
+        background-color: burlywood;
+        margin-top:-900%;
+        
+      }
+        .button3{  border: 0px;
+            padding: 1em;
+        border-radius: 2.8em;
+        color: white;
+        background-color: rgb(203, 96, 203);
+
+
+        }
+        .button4{ 
+            border: 0px;
+    padding: 1em;
+border-radius: 2.8em;
+color: white;
+background-color: rgb(80, 159, 80);
+
+
+         }
+        .button5{ border: 0px;
+            padding: 1em;
+        border-radius: 2.8em;
+        color: white;
+        background-color: rgb(189, 86, 104);
+
+
+
+         }
+
 
 
 
@@ -375,19 +442,31 @@ justify-content: space-between;
 
         .curriculam{
             
-            width:570px;
+            width:390px;
             height:300px;
         
          }
 
         .font2{
             font-size: 26px; 
+
+
+           
+
+                font-weight:bold;
+                        
+                        text-align: center;
+                        padding-top: 40px;
+            
+                        padding-bottom: 10px;
+             
+             
         }
 
             .school{
                 flex-direction: column;
                 margin-left: 16px;
-                margin-right: 16px;
+                margin-right: 18px;
                 gap:1.75em;
                 max-width: 570px;
 
@@ -395,7 +474,16 @@ justify-content: space-between;
                
             
              }
+
+             .child1, .child2, .child3{
+                text-align: center;
+                margin-top:10px;
+           }
+           .babu{
+            display: none;
+           }
             
+
 
 
         }
