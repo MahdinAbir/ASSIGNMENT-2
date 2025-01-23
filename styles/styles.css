@@ -431,6 +431,12 @@ left: 2.18em;
 
             
 
+
+         }
+         .small-head{
+            display: none;
+
+
          }
 
 
@@ -518,9 +524,14 @@ left: 2.18em;
             font-weight: 400;
 
           }
+          
           .marq{
             background-color: #c52bbb; color: #fffdfd;
           }
+
+          
+
+          
           
           
 
@@ -582,13 +593,22 @@ left: 2.18em;
         
     }
 
-    .btn-p, .nav2, #scl {
+    .btn-p, .nav2, #scl  {
         display: none;
+    }
+    .img1{
+        display:none;
     }
     .title{
         max-width: 20em;
         text-align: center;
         
+
+    }
+    .small-head{
+        display: flex;
+        justify-content: space-between;
+        max-width: none;
 
     }
 
